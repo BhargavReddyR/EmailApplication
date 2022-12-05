@@ -39,20 +39,10 @@ public class CredentialsService implements ICredentials{
 		return password;
 	}
 	
-		
-
 	@Override
 	public void showCredentials(Employee employee) {
 		System.out.println("Dear "+employee.getFirstName() + " your generted credentials are :");
 		System.out.println("Email ID : " + employee.getEmail());
 		System.out.println("Password : " +employee.getPassword());
 	}
-
-	
-	
-	
-	
-	
-	
-
 }
