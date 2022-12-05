@@ -53,6 +53,8 @@ public class AppMain {
 			demoEmployee.setEmail(generatedEmail);
 			demoEmployee.setPassword(generatedPassword);
 			credentialsService.showCredentials(demoEmployee);
+			userInput.close();	
+				
 			}
 		}
 	
